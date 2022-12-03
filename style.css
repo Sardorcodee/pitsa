@@ -1,0 +1,37 @@
+.card img {
+  width: 100%;
+  height: 100%;
+}
+.button:hover {
+  background: white;
+  color: black;
+}
+.none {
+  display: none;
+}
+.bulak1 {
+  width: 100px;
+  height: 100px;
+}
+.non1 {
+  background: #fbca47;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 15px solid #bd7839;
+  border-left: 25px solid #7c5633;
+  border-top: 25px solid #7c5633;
+  overflow: hidden;
+}
+.non2 {
+  background: #f7d583;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 50px solid #bd3d26;
+  border-right: 25px solid #e5a060;
+  border-top: 25px solid #e5a060;
+  overflow: hidden;
+}

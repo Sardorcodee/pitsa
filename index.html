@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <title>8-dars</title>
+  </head>
+  <body>
+    <div class="d-flex container pt-5 d-flex flex-column gap-5">
+      <div
+        id="hisob"
+        class="p-5 bg-black text-light position-fixed"
+        style="z-index: 9996"
+      >
+        Narxi:$0
+      </div>
+      <p class="text-center fs-5">
+        Assalomu alaykum bu sayt orqali pitsa yasab unga buyurtma bering!
+      </p>
+      <hr />
+      <div class="bulak d-none" style="width: 500px; height: 500px">
+        <div
+          class="bodring d-none row position-absolute"
+          style="
+            position: relative;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(20deg);
+          "
+        >
+          <img class="bulak1" src="/img/bodringbulakcha.png" alt="" />
+          <img class="bulak1" src="/img/bodringbulakcha.png" alt="" />
+          <img class="bulak1" src="/img/bodringbulakcha.png" alt="" />
+        </div>
+        <div
+          class="pomidor d-none row position-absolute"
+          style="
+            position: relative;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(20deg);
+          "
+        >
+          <img class="bulak1" src="/img/pomidorbulak.png" alt="" />
+          <img class="bulak1" src="/img/pomidorbulak.png" alt="" />
+          <img class="bulak1" src="/img/pomidorbulak.png" alt="" />
+        </div>
+
+        <div
+          class="sir d-none row position-absolute"
+          style="
+            position: relative;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(20deg);
+          "
+        >
+          <img class="bulak1" src="/img/sir.png" alt="" />
+          <img class="bulak1" src="/img/sir.png" alt="" />
+          <img class="bulak1" src="/img/sir.png" alt="" />
+        </div>
+        <div
+          class="ketchup d-none row position-absolute"
+          style="
+            position: relative;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(20deg);
+          "
+        >
+          <img class="bulak1" src="/img/ketchup.png" alt="" />
+          <img class="bulak1" src="/img/ketchup.png" alt="" />
+          <img class="bulak1" src="/img/ketchup.png" alt="" />
+        </div>
+      </div>
+      <div class="section">
+        <h1 class="text-center">Mahsulotlarni tanlang</h1>
+        <div class="row gap-4 justify-content-center d-flex">
+          <div class="card py-5 text-center bg-light col-12 col-md-5">
+            <div class="non1"></div>
+            <h2 id="$0.9" class="mt-5 mb-5">$0.9</h2>
+            <button class="button w-50 m-auto" onclick="pizz()">Tanlash</button>
+          </div>
+          <div class="card py-5 bg-light col-12 col-md-5 text-center">
+            <div class="non2"></div>
+            <h2 id="$1.1" class="mt-5 mb-5">$1.1</h2>
+            <button class="button w-50 m-auto" onclick="pizza2()">
+              Tanlash
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h2 class="text-center">Qanday mahsulotlar qushamiz?</h2>
+      <div
+        class="row text-center gap-1 gap-5 m-auto d-flex justify-content-center"
+      >
+        <div class="card bg-light p-5 col-12 col-md-3">
+          <img
+            src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRMav99XlL4SS0_jNo-bCxKs49ZfvF3EtO05UYRzA1FLmzVpwLAEblJYVUpKCGVliZGQZVENTUyKMjkpUjuKCo"
+            alt=""
+          />
+          <h2 class="mt-3 mb-3">$0.5</h2>
+          <button onclick="bodring1()">Tanlash</button>
+        </div>
+        <div class="card bg-light p-5 col-12 col-md-3">
+          <img
+            src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQJCICbbY4gyUgzuypqSArOz9oCnnF1NqpViOAMcjnWaVCKafwHnwa29aZvGNe2MFo_4sonPWlzkdR-9cKKqgc"
+            alt=""
+          />
+          <h2 class="mt-3 mb-3">$0.5</h2>
+          <button onclick="pomidor1()">Tanlash</button>
+        </div>
+        <div class="card bg-light p-5 col-12 col-md-3">
+          <img
+            src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSl2lqOVXeniWUY4MTol_-1cwpcP4tz6uDp_tV6IPfJTIu975n5H5Y1nCXNnegAvihcz9-KREzrF5LPP5mdLyo"
+            alt=""
+          />
+          <h2 class="mt-3 mb-3">$0.9</h2>
+          <button onclick="ketchup1()">Tanlash</button>
+        </div>
+        <div class="card bg-light p-5 col-12 col-md-3">
+          <img
+            src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQXXIt2qoqurB5qkV5aOzDIbxHntmjbuzRjsmmVG-1mMjUutLBPO5bmduSAq06wRNwU3ujgnUZok-CEWkIKAXY"
+            alt=""
+          />
+          <h2 class="mt-3 mb-3">$0.6</h2>
+          <button onclick="sir1()">Tanlash</button>
+        </div>
+      </div>
+      <div class="btn m-auto gap-3 d-flex mb-5">
+        <button
+          class="px-3 py-1 border-0 text-white bg-danger"
+          onclick="document.write.innerHTML =window.location.reload('Refresh');"
+        >
+          Qayta urinish
+        </button>
+        <button
+          class="px-3 py-1 border-0 text-white bg-primary"
+          onclick="buyurtma()"
+        >
+          Buyurtma qilish
+        </button>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="/app.js"></script>
+  </body>
+</html>
